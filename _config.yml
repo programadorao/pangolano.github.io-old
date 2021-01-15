@@ -4,8 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Programador Angolano é um website para iniciantes 
   que desejam aprender programação onde abordaremos de tudo um pouco!
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/pa-blog" # the subpath of your site, e.g. /blog
+url: "pangolano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Programador Angolano # add your name
