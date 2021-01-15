@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="flex-container">
+  {% include header.html %}
+  <article class="article-page">
+    <div class="page-image">
+      <div class="inner-post" style="background: rgb(37, 37, 37); height: 250px">
+        <div class="header-page">
+          <h1 class="page-title">{{page.title}}</h1>
+          <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="wrapper">
+      <div class="page-content">
+        
+        {{page.content | markdownify}}
+        <div class="page-footer">
+          <div class="page-tag">
+            <span>Tags:</span>
+            {% for tag in page.tags %}
+            <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">| {{ tag }}</a>
+            {% endfor %}
+          </div><!-- End Tags -->
+          <div class="page-share">
+            <span>Partilhar:</span>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div><!-- End Share -->
+        </div>
+        {% include author-box.html %}
+        {% include recent-post.html %}
+        {% include newsletter.html %}
+        {% include disqus.html %}
+      </div>
+    </div> <!-- End Wrapper -->
+  </article>
+  {% include search.html %}
+  {% include footer.html %}
+</div>

@@ -1,0 +1,48 @@
+title: Programador Angolano - Blog
+email: haguacomh@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Programador Angolano é um website para iniciantes 
+  que desejam aprender programação onde abordaremos de tudo um pouco!
+permalink: ':title/'
+baseurl: "/pa-blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Programador Angolano # add your name
+author-pic: me.jpg
+about-author: Meu nome é Joaquim Roque. Sou o tempo todo um aventureiro e amo programar. Sou um eterno aprendiz e curioso @haguacomh
+
+# Contact links
+email: haguacomh@gmail.com# Add your Email address
+phone: # Add your Phone number
+website: https://joaroque.github.io # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: joaroque # Add your Github handle
+twitter: '@joaquimroque_' # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: joaquimroque_ # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
