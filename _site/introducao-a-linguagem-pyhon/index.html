@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+<head>
+	<meta charset="utf-8">
+	<title>Introdução à Python - Programador Angolano - Blog</title>
+	<meta name="description" content="Introdução sobre a linguagem de programação Python">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#311e3e">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#311e3e">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <div class="flex-container">
+  <header class="main-header">
+  <div class="wrapper">
+    <div class="header-flex">
+      <div class="menu-icon-container">
+        <span class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+      </div>
+      <nav class="main-nav">
+        <span class="menu-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <ul>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/about">Sobre mim</a></li>
+        </ul>
+      </nav>
+      <p class="logo"><a href="/">Programador Angolano</a></p>
+      <div class="search-icon-container">
+        <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
+      </div>
+    </div>
+  </div>
+</header> <!-- End Header -->
+
+  <article class="article-page">
+    <div class="page-image">
+      <div class="inner-post" style="background: rgb(37, 37, 37); height: 250px">
+        <div class="header-page">
+          <h1 class="page-title">Introdução à Python</h1>
+          <div class="page-date"><time datetime="2020-12-11 01:02:13 +0100">2020, Dec 11</time></div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="wrapper">
+      <div class="page-content">
+        
+        <p>Python é uma linguagem interpretada de alto nível, fortimente tipada e orientada à objectos.
+Python é usada em diversas áreas como: Web, desktp, mobile, data science, inteligência artifial, machine learning, enfim, um infinito de coisas onde python é usado.</p>
+
+<p>Criada em 1991 pelo holandês Guido Van Rossun. Suporta banco de dados relacionais, é Free (GPL) e não depende de fornecedores exclusivos. Outro ponto, python é uma linguagem de script e interpretada</p>
+
+<blockquote>
+  <p>Caso ainda não saiba, actualmente, Python tem duas verss mais utilizadas, Python 2 e Python 3. Python 3 é a versão mais actual. Dito isto, Python 3 é o futuro, então, não existe motivos para que você comece a programar com Python 2.</p>
+</blockquote>
+
+<p><img src="/assets/img/compilador-interpretador.png" alt="Compilador - Interpretador" /></p>
+
+<h2 id="instalando-python">INSTALANDO PYTHON</h2>
+<p>Instalar a linguagem python é muito fácil. Mostrarei dois métodos, um para windows e outro para linux.
+Clica <a href="/tags/#programacao">aqui</a> para ir aos slides de instalação</p>
+
+<h2 id="olá-mundo">OLÁ MUNDO</h2>
+<p>Agora que conhecemos um pouco da sua história e aspectos principais desta linguagem maravilhosa, vamos partir para o nosso primeiro código</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="s">"Olá mundo!"</span><span class="p">)</span></code></pre></figure>
+
+<p>Bora explicar esse trecho
+<code class="language-plaintext highlighter-rouge">print()</code> - a função print serve para imprimir algo na tela. Esta mesma função recebe como parametro uma strin que nós usamos <code class="language-plaintext highlighter-rouge">"Olá mundo!"</code></p>
+
+<h2 id="variáveis">VARIÁVEIS</h2>
+<p>Até aqui tudo calmo? rsrsrsr
+Para definir uma variável no Python, basta digitar um nome, sinal de igualdade e o valor(nome = “Joaquim”)
+Vamos falar de variáveis, python é uma lingugem fortemente tipada nós não precisamos especificar seus tipos exemplo “int idade”:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">idade</span> <span class="o">=</span> <span class="mi">17</span> <span class="c1">#variável do tipo inteiro
+</span><span class="n">altura</span> <span class="o">=</span> <span class="mf">1.87</span> <span class="c1">#variável do tipo decimal ou real
+</span><span class="n">nome</span> <span class="o">=</span> <span class="s">"Joa Roque"</span> <span class="c1">#variável do tipo string ou carácter</span></code></pre></figure>
+
+<blockquote>
+  <p>Qualquer linha procedidade de # não é considerada pelo interpretador, então é um comentário.</p>
+</blockquote>
+
+<h4 id="atenção">ATENÇÃO</h4>
+
+<p>Nomes de variáveis:</p>
+
+<ul>
+  <li>Não podem começar com números</li>
+  <li>Não podem começar com carácteres especiais</li>
+  <li>Não podem começar com palavras reservadas</li>
+</ul>
+
+<p>Alguns outros exemplos de variáveis e operações artimétricas</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">num1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">num2</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="n">num1</span><span class="o">+</span><span class="n">num2</span><span class="p">)</span> <span class="c1">#saida será 6
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">nome</span> <span class="o">=</span> <span class="s">"Joa"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">sobre_nome</span> <span class="o">=</span> <span class="s">"Roque"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span><span class="p">(</span><span class="n">nome</span><span class="p">,</span><span class="s">" "</span><span class="p">,</span><span class="n">sobre_nome</span><span class="p">)</span></code></pre></figure>
+
+<p><strong>OPERADORES E SINAIS DE COMPARAÇÃO</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Operadores artimétricos
+-----
++  : adição
+-  : subtração
+/  : divisão
+*  : multiplicção
+%  : resto da divisão
+** : potenciação
+-----
+</code></pre></div></div>
+<h4 id="exemplo">EXEMPLO:</h4>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">add</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">+</span> <span class="mi">5</span>
+<span class="n">sub</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">-</span> <span class="mi">4</span>
+<span class="n">div</span> <span class="o">=</span> <span class="mi">2020</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">multi</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="nb">pow</span> <span class="o">=</span> <span class="mi">2</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">add</span><span class="p">)</span> <span class="c1"># saida 10
+</span><span class="k">print</span><span class="p">(</span><span class="n">sub</span><span class="p">)</span> <span class="c1"># saida 1
+</span><span class="k">print</span><span class="p">(</span><span class="n">div</span><span class="p">)</span> <span class="c1"># saida 1010
+</span><span class="k">print</span><span class="p">(</span><span class="n">multi</span><span class="p">)</span> <span class="c1"># saida 4
+</span><span class="k">print</span><span class="p">(</span><span class="nb">pow</span><span class="p">)</span> <span class="c1"># saida 4</span></code></pre></figure>
+
+<p>Sinais de comparação</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>----
+== : igual a
+!= : diferente de
+&gt;  : maior que
+&lt;  : menor que
+&gt;= : maior ou igual a
+&lt;= : menor ou igual a
+</code></pre></div></div>
+<h4 id="exemplo-1">EXEMPLO</h4>
+<blockquote>
+  <p>Os sinais de comparação só retornam True e False(Verda)</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="mi">4</span> <span class="o">==</span> <span class="mi">8</span><span class="p">)</span> <span class="c1"># saida False
+</span><span class="k">print</span><span class="p">(</span><span class="mi">4</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">)</span> <span class="c1"># saida True
+</span><span class="k">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">)</span> <span class="c1"># saida False
+</span><span class="k">print</span><span class="p">(</span><span class="mi">20</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">)</span> <span class="c1"># saida False
+</span><span class="k">print</span><span class="p">(</span><span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">8</span><span class="p">)</span> <span class="c1"># saida False
+</span><span class="k">print</span><span class="p">(</span><span class="mi">10</span> <span class="o">&lt;=</span> <span class="mi">30</span><span class="p">)</span> <span class="c1"># saida True</span></code></pre></figure>
+
+<h2 id="entrada-de-dados">ENTRADA DE DADOS</h2>
+
+<p>Aqui, aproveitamos para apresentar a função “input()”. Esta função é
+utilizada para captar informações enviadas pelo usuário. Ela pode receber
+um parâmetro, que será uma mensagem exibida ao usuário antes que ele
+insira o que deseja.</p>
+
+<p>A entrada inserida pelo usuário pode ser salva e utilizada posteriormente.
+No exemplo abaixo, a entrada digitada pelo usuário é salva na variável
+“nome” e depois é impressa, juntamente com a mensagem desejada. No
+exemplo, logo após a exibição da mensagem “ Olá, qual o seu nome?”, o
+programa aguardará o input do usuário. Após digitar seu nome, você deve
+apertar o Enter, para que o código prossiga.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">nome</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Olá, qual o seu nome?</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span> 
+<span class="k">print</span><span class="p">(</span><span class="s">"Olá, %s"</span> <span class="o">%</span><span class="n">nome</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="n">Olá</span><span class="p">,</span> <span class="n">qual</span> <span class="n">o</span> <span class="n">seu</span> <span class="n">nome</span><span class="err">?</span>
+<span class="n">Joaquim</span> <span class="n">Roque</span>
+<span class="o">&gt;</span> <span class="n">Olá</span><span class="p">,</span> <span class="n">Joaquim</span> <span class="n">Roque</span></code></pre></figure>
+
+<h2 id="conclusão">CONCLUSÃO</h2>
+<p>Chegamos ao fim do post mas não do assunto. A publicação ficou muito extensa. Nos vemos!!!</p>
+
+
+        <div class="page-footer">
+          <div class="page-tag">
+            <span>Tags:</span>
+            
+            <a href="/tags#python" class="tag">| python</a>
+            
+            <a href="/tags#scripts" class="tag">| scripts</a>
+            
+            <a href="/tags#programação" class="tag">| programação</a>
+            
+          </div><!-- End Tags -->
+          <div class="page-share">
+            <span>Partilhar:</span>
+            <a href="https://twitter.com/intent/tweet?text=Introdução à Python&url=http://localhost:4000/introducao-a-linguagem-pyhon/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/introducao-a-linguagem-pyhon/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div><!-- End Share -->
+        </div>
+        <section class="author-box">
+  <img src="/assets/img/me.jpg" alt="Programador Angolano" class="author-img">
+  <div class="author-desc">
+    <h2>Joaquim Roque</h2>
+    <p>Meu nome é Joaquim Roque. Sou o tempo todo um aventureiro e amo programar. Sou um eterno aprendiz e curioso @haguacomh</p> 
+    <ul>
+      
+        <li class="email"><a href="mailto:haguacomh@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+      
+      
+        <li class="website"><a href="http://https://joaroque.github.io" target="_blank"><i class="fa fa-globe"></i></a></li>
+      
+      
+        <li class="twitter"><a href="https://twitter.com/@joaquimroque_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      
+    </ul>
+  </div>
+</section>
+
+        <div class="recent-box">
+  <h2 class="recent-title">Publicações recentes</h2>
+  <div class="recent-list">
+    
+      
+        <a href="/introducao-a-linguagem-pyhon/" class="recent-item" style="background: url(/assets/img/mac.jpg) center no-repeat; background-size: cover;"><span>Introdução à Python</span></a>
+      
+    
+      
+        <a href="/ola-mundo-de-novo/" class="recent-item" style="background: url(/assets/img/palogo.png) center no-repeat; background-size: cover;"><span>Olá Mundo! De novo.</span></a>
+      
+    
+  </div>
+</div> <!-- End Recent-Box -->
+
+        <div class="newsletter" id="mc_embed_signup">
+  <h2 class="newsletter-title">Newsletter</h2>
+  <div class="form-container">
+    <p>Subscreve aqui para ter últimas actualizações</p>
+    <form action="///github.us7.list-manage.com/subscribe/post?u=373996a1b36d0f04b99916930&amp;id=5fa6b5ca8b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <label class="screen-reader-text" for="mce-EMAIL">Endereço de email</label>
+      <div class="newsletter-box" id="mc_embed_signup_scroll">
+        <input type="email" name="EMAIL" placeholder="Endereço de email" class="email-input" id="mce-EMAIL" required>
+        <input type="submit" value="Subscrever" name="subscribe" class="subscribe-btn" id="mc-embedded-subscribe">
+      </div>
+    </form>
+  </div>
+</div> <!-- End Newsletter -->
+
+        <!-- 
+<section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '///programador-angolano.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> End Comment Area -->
+
+<section class="comment-area">
+  <div class="comment-wrapper">
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://programador-angolano.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+      </div>
+    </div> <!-- End Wrapper -->
+  </article>
+  <div class="search-box">
+  <div class="wrapper">
+    <div class="search-grid">
+      <form class="search-form">
+        <div id="search-container">
+          <input type="text" id="search-input" class="search" placeholder="Pesquisar">
+        </div>
+      </form>
+      <ul id="results-container" class="results-search"></ul>
+      <div class="icon-close-container">
+        <span class="search-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="main-footer">
+  <div class="copyright">
+    <p>2021 &copy; Programador Angolano</p>
+  </div>
+</footer> <!-- End Footer -->
+
+</div>
+
+  <!-- JS -->
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/jekyll-search.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    fuzzy: false,
+    exclude: ['Welcome']
+  });
+</script>
+<script src="/assets/js/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKJPHP3ZTL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKJPHP3ZTL');
+</script>
+</body>
+</html>
