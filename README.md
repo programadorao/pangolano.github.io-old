@@ -1,7 +1,7 @@
 # Blog Programador Angolano
 
 ### Programador Angolano é um blog para iniciantes que desejam aprender programação. Abordaremos de tudo um pouco, sobre tudo Python
-![] (https://raw.githubusercontent.com/pangolano/hello-world/master/pat.png)
+![](https://github.com/pangolano/hello-world/master/pat.png?raw=true)
 
 > Inspirado no tema **Adam Blog**
 ![Adam Blog - Imac](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-blog-imac.jpg?raw=true)
