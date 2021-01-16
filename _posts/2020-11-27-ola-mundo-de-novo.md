@@ -8,7 +8,7 @@ img: palogo.png
 
 Olá sou Joaquim Roque também conhecido como Joa Roque.
 Estou trabalhando para repor o blog **Programador Angolano** que ficou parado por um tempo por motivos pessoais. Hoje decido voltar porque para álem de ensinar é uma motivação para aprender mais e mais. 
-Esse mesmo projecto surgiu atravéz de um amigo que me fez o convite para trabalhar com ele. Só que as coisas não foram como planejadas e então ele decidiu largar o projecto... Mas como sempre me ele surpeendeu, começou em um outro projecto para ensinar programação com Python. 
+Esse mesmo projecto surgiu através de um amigo que me fez o convite para trabalhar com ele. Só que as coisas não foram como planejadas e então ele decidiu largar o projecto... Mas como sempre me ele surpeendeu, começou em um outro projecto para ensinar programação com Python. 
 
 Convido-lhe a acompanhar o projecto [Usando Python][usando-python] na qual é mantido por ele mesmo.
 
@@ -29,7 +29,7 @@ O projecto é livre para quem quiser participar, só entrar em contacto comigo n
 Você pode contribuir nos ajudando com uma hospedagem ou domínio. Pode também ajudar com sugestões de conteúdos e/ou fontes.
 
 
-[usando-python]: https://usandopython.pythonanywhere.com
-[facebook-page]: https://www.facebook.com
-[facebook-me]: https://www.facebook.com
-[medium]: https://medium.com/joaquimroques
+[usando-python]: https://usandopy.blogspot.com
+[facebook-page]: https://www.facebook.com/programadorangolano
+[facebook-me]: https://www.facebook.com/100025057463273
+[medium]: https://medium.com/joaquimroque
