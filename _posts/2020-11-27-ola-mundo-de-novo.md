@@ -23,7 +23,7 @@ diz_ola("JOaquim")
 
 ### Objectivo 
 A ideia é fazer um blog para ensino de programação para todos níveis de aprendizado. Devido a situação da internet do nosso país os mesmos post serão postados na nossa página do [Facebook][facebook-page], também passarei a postar no [Medium][medium] só para maior visiblidade do nosso trabalho.
-O projecto é livre para quem quiser participar, só entrar em contacto comigo no [Facebook][faceboo-me]
+O projecto é livre para quem quiser participar, só entrar em contacto comigo no [Facebook][facebook-me]
 
 ### Como contribuir
 Você pode contribuir nos ajudando com uma hospedagem ou domínio. Pode também ajudar com sugestões de conteúdos e/ou fontes.
