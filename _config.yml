@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   que desejam aprender programação onde abordaremos de tudo um pouco!
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pangolano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Programador Angolano # add your name
@@ -13,24 +13,24 @@ author-pic: me.jpg
 about-author: Meu nome é Joaquim Roque. Sou o tempo todo um aventureiro e amo programar. Sou um eterno aprendiz e curioso @haguacomh
 
 # Contact links
-email: haguacomh@gmail.com# Add your Email address
+email: haguacomh@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://joaroque.github.io # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
 github: joaroque # Add your Github handle
 twitter: '@joaquimroque_' # Add your Twitter handle
-facebook: # Add your Facebook handle
+facebook: https://www.facebook.com/100025057463273 # Add your Facebook handle
 instagram: joaquimroque_ # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 # Newsletter
-mailchimp: # Add your MailChimp form identifier.
+mailchimp: "/github.us7.list-manage.com/subscribe/post?u=373996a1b36d0f04b99916930&amp;id=5fa6b5ca8b" # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: joaroque # Add your discus identifier
+discus_identifier: /programador-angolano # Add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: G-DKJPHP3ZTL # Google Analytics
 
 # Paginate
 paginate: 6
