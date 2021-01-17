@@ -1,72 +1,68 @@
 ---
 layout: home-page
-title: About
+title: Sobre
 permalink: /about/
 ---
+
 <div class="small-wrapper">
   <div class="about-container">
-    <section class="about-header">
+    {% if site.authors %}
+    {% for a in site.authors %}
+     {% assign author = a[1] %}
+    <section class="about-header" style="margin-top: 30px">
       <div class="author-image-container">
-        <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}">
+        <img src="{{site.baseurl}}/assets/img/{% if author.profile %}{{author.profile}}{% endif %}" alt="{{site.author}}">
       </div>
-      <p class="subtitle">{{site.about-author}}</p>
+      <h1 style="text-align: center;">{{ author.name  }}</h1>
+      <p class="subtitle">{{author.description}}</p>
     </section>
     <section class="about-body">
       <ul class="contact-list">
-      {% if site.email %}
-        <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+      {% if author.email %}
+        <li class="email"><a href="mailto:{{author.email}}"><i class="fa fa-envelope-o"></i></a></li>
       {% else %}
-        <li class="email"><a href="mailto:example.adam@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        <li class="email"><a href="mailto:programadorangolano1@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.phone %}
-        <li class="phone"><a href="tel:{{site.phone}}"><i class="fa fa-phone"></i></a></li>
+      {% if author.web %}
+        <li class="website"><a href="http://{{author.web}}" target="_blank"><i class="fa fa-globe"></i></a></li>
       {% else %}
-        <li class="phone"><a href="tel:044 825 5523"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+        <li class="website"><a href="https://pangolano.github.io" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.website %}
-        <li class="website"><a href="http://{{site.website}}" target="_blank"><i class="fa fa-globe"></i></a></li>
+      {% if author.linkedin %}
+        <li class="linkedin"><a href="https://in.linkedin.com/in/{{author.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
       {% else %}
-        <li class="website"><a href="https://artemsheludko.github.io" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+        <li class="linkedin"><a href="https://in.linkedin.com/programadorangolano" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.linkedin %}
-        <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      {% if author.github %}
+        <li class="github"><a href="http://github.com/{{author.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
       {% else %}
-        <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li class="github"><a href="http://github.com/pangolano" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.github %}
-        <li class="github"><a href="http://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+      {% if author.twitter %}
+        <li class="twitter"><a href="https://twitter.com/{{author.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
       {% else %}
-        <li class="github"><a href="http://github.com/artemsheludko" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li class="twitter"><a href="https://twitter.com/programadorangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.twitter %}
-        <li class="twitter"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      {% if author.facebook %}
+        <li class="facebook"><a href="https://facebook.com/{{author.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
       {% else %}
-        <li class="twitter"><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="facebook"><a href="https://facebook.com/programadorangolano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.facebook %}
-        <li class="facebook"><a href="https://facebook.com/{{site.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
-      {% else %}
-        <li class="facebook"><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      {% endif %}
-
-      {% if site.instagram %}
-        <li class="instagram"><a href="https://instagram.com/{{site.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      {% if author.instagram %}
+        <li class="instagram"><a href="https://instagram.com/{{author.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
       {% else %}
         <li class="instagram"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       {% endif %}
 
-      {% if site.pinterest %}
-        <li class="pinterest"><a href="https://pinterest.com/{{site.pinterest}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-      {% else %}
-        <li class="pinterest"><a href="https://pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-      {% endif %}
       </ul>
     </section> <!-- End About Body-->
+    {% endfor %}
+    {% endif %}
   </div> <!-- End About Container -->
 </div> <!-- End Small Wrapper -->
