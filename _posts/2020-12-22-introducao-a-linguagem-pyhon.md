@@ -3,8 +3,8 @@ layout: post
 title: "Introdução à Python"
 date: 2020-12-11 01:02:13 +
 description: "Introdução sobre a linguagem de programação Python"
-img: mac.jpg
 tags: [python, scripts, programação]
+author: joa
 ---
 
 Python é uma linguagem interpretada de alto nível, fortimente tipada e orientada à objectos.
