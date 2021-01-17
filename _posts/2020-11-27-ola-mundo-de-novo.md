@@ -3,7 +3,8 @@ layout: post
 title: "Olá Mundo! De novo."
 date: 2020-11-27 13:30:20 +0300
 description: "Uma breve introdução e recomeço do projecto"
-img: palogo.png
+tags: [hello world, first post]
+author: joa
 ---
 
 Olá sou Joaquim Roque também conhecido como Joa Roque.
@@ -23,7 +24,7 @@ diz_ola("JOaquim")
 
 ### Objectivo 
 A ideia é fazer um blog para ensino de programação para todos níveis de aprendizado. Devido a situação da internet do nosso país os mesmos post serão postados na nossa página do [Facebook][facebook-page], também passarei a postar no [Medium][medium] só para maior visiblidade do nosso trabalho.
-O projecto é livre para quem quiser participar, só entrar em contacto comigo no [Facebook][facebook-me]
+O projecto é livre para quem quiser participar, só entrar em contacto comigo no [Facebook][faceboo-me]
 
 ### Como contribuir
 Você pode contribuir nos ajudando com uma hospedagem ou domínio. Pode também ajudar com sugestões de conteúdos e/ou fontes.
