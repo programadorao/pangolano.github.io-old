@@ -1211,7 +1211,7 @@ pre code {
   padding: 0;
   margin: 0;
   height: 500px;
-  background: url("../img/banner.jpg") no-repeat; /*For me */
+  /* background: url("../img/banner.jpg") no-repeat; For me */
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
