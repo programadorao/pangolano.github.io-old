@@ -39,7 +39,23 @@ authors:
       github: ­ivaldir301 # Add your Github handle
       instagram: batalha.ivaldir # Add your Instagram handle
       linkedin: 
-
+   edgar:
+      name: Edgar Singui
+      profile: edgar.jpg
+      description: > #author description
+         Olá sou o Edgar, sou um programador e alguém apaixonado pela tecnologia e seus prazeres.
+         Trabalho com programação web e mobile.
+         Acredito estar capacitado para dar suporte a menos experientes.
+         Tenho bastante experiência no que toca a desenvolvimento de sites e aplicativos. 
+         Desenvolvo Sites usando PHP & Vue Js, é uma maravilha, Apps usando Flutter. Quer tomar um café comigo ?
+      display_name: Edgar
+      email: edgarsingui@gmail.com
+      web: 
+      facebook: edgarsingui01 # Add your Facebook handle
+      twitter: Mr_Vacuo
+      github: ­ivaldir301 # Add your Github handle
+      instagram: edgarsingui_ # Add your Instagram handle
+      linkedin: edgar-singui
 
 
 
