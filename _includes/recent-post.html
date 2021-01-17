@@ -3,8 +3,33 @@
   <div class="recent-list">
     {% for post in site.posts offset:0 limit:4 %}
       {% if post.title %}
-        <a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}" class="recent-item" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
+      	<div class="recent-item">
+      		<div class="recent-info">
+	      		{% if post.author %}
+		            {% assign author = site.authors[post.author] %}
+		            <div >
+		            	<span class="recent-author">{{ author.name }}</span>
+		            </div>
+		            <div class="recent-datatime">
+			            <meta itemprop="datePublished" content="{{post.date}}">
+			            <time datetime="{{ post.date | date_to_xmlschema }}">
+			              <span class="day">
+			                {{ post.date | date: "%d" }}
+			              </span>
+			              <span class="month-year">
+			                {{ post.date | date: "%B %Y" }}
+			              </span>
+			            </time>
+			        </div>
+	          	{% endif %} 
+          	</div>
+        	<a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}" class="recent-title">
+        		<h3>{{ post.title }}</h3>
+        	</a>
+        </div>
       {% endif %}
+       
     {% endfor %}
   </div>
 </div> <!-- End Recent-Box -->
+
