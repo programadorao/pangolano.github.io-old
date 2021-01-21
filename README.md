@@ -1,7 +1,7 @@
 # Blog Programador Angolano
 
 
-### Programador Angolano é um blog para iniciantes que desejam aprender programação. Abordaremos de tudo um pouco, sobre tudo Python
+### Programador Angolano é um blog para iniciantes que desejam aprender programação. Abordaremos de tudo um pouco desde desenvolvimento web, mobile e scripts :)
 ![](https://github.com/pangolano/hello-world/blob/master/pat.png?raw=true)
 
 
