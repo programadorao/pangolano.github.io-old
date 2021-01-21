@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introdução à PHP"
+title: "Introdução ao PHP"
 date: 2021-01-21 13:30:20 +0300
 description: "Introdução a Linguagem PHP"
 tags: [php, scripts, programação]
