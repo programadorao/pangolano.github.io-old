@@ -14,7 +14,7 @@ Criada em 1991 pelo holandês Guido Van Rossun. Suporta banco de dados relaciona
 
 > Caso ainda não saiba, actualmente, Python tem duas verss mais utilizadas, Python 2 e Python 3. Python 3 é a versão mais actual. Dito isto, Python 3 é o futuro, então, não existe motivos para que você comece a programar com Python 2.
 
-![Compilador - Interpretador]({{site.baseurl}}/assets/img/compilador-interpretador.png)
+![Compilador - Interpretador]({{site.baseurl}}/assets/img/post/compilador-interpretador.png)
 
 ## INSTALANDO PYTHON
 Instalar a linguagem python é muito fácil. Mostrarei dois métodos, um para windows e outro para linux.
