@@ -14,16 +14,16 @@ authors:
       name: Joa Roque
       profile: joa.jpg
       description: > #ooo
-         Olá tudo bem?
+         Olá tudo bem? :smiley:<br>
          Sou o tempo todo um aventureiro e amo programar. 
-         Um eterno aprendiz e curioso @haguacomh
+         Um eterno aprendiz e curioso @catumua_
       display_name: Joa
       email: haguacomh@gmail.com
       web: https://joaroque.github.io
       facebook: "100025057463273" # Add your Facebook handle
-      twitter: "@joaquimroque_"
+      twitter: "catumua_"
       github: joaroque
-      instagram: joaquimroque_ # Add your Instagram handle
+      instagram: catumua_ # Add your Instagram handle
       linkedin: 
    ivaldir:
       name: Ivaldir Batalha
@@ -43,11 +43,13 @@ authors:
       name: Edgar Singui
       profile: edgar.jpg
       description: > #author description
-         Olá sou o Edgar, sou um programador e alguém apaixonado pela tecnologia e seus prazeres.
-         Trabalho com programação web e mobile.
+         Olá sou o Edgar,
+         programador e alguém apaixonado pela tecnologia e seus prazeres.
+         Trabalho com programação web e mobile.<br>
          Acredito estar capacitado para dar suporte a menos experientes.
-         Tenho bastante experiência no que toca a desenvolvimento de sites e aplicativos. 
-         Desenvolvo Sites usando PHP & Vue Js, é uma maravilha, Apps usando Flutter. Quer tomar um café comigo ?
+         Tenho bastante experiência no que toca a desenvolvimento de sites e aplicativos. <br>
+         Desenvolvo Sites usando PHP & Vue Js, é uma maravilha, Apps usando Flutter. 
+         <br>Quer tomar um café :coffee: comigo?
       display_name: Edgar
       email: edgarsingui@gmail.com
       web: 
@@ -56,6 +58,24 @@ authors:
       github: edgarsingui # Add your Github handle
       instagram: edgarsingui_ # Add your Instagram handle
       linkedin: edgar-singui
+   
+   john:
+      name: John Correia
+      profile: john.jpg
+      description: > #author description
+        Olá sou o john  :blush: 
+         <br>Curto e estudo sobre o mundo open source e 
+        faço conteúdo pra net relacionado ao mesmo.
+      display_name: John
+      email: johncorreia02@gmail.com
+      web: https://apenasumuser.blogspot.com/
+      telegram: Johncorreia
+      facebook: john.correia.12935 # Add your Facebook handle
+      twitter: 
+      github:  # Add your Github handle
+      instagram: johncorreia02/ # Add your Instagram handle
+      linkedin: 
+      youtube:  https://www.youtube.com/channel/UCPaEnASR7h7I866y1CWEfzQ
 
 
 
@@ -78,7 +98,9 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]

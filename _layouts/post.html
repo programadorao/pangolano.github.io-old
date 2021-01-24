@@ -5,18 +5,24 @@ layout: default
   {% include header.html %}
   <article class="article-page">
     <div class="page-image">
-      <div class="inner-post" style="background: rgb(37, 37, 37); height: 250px">
+      <div class="inner-post" style="height: 250px">
         <div class="header-page">
           <h1 class="page-title">{{page.title}}</h1>
-          <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
+          <div class="page-info">
+            {% if page.author %}
+            {% assign author = site.authors[page.author] %}
+            <div class="page-autor"><i class="fa fa-user-circle-o"></i>{{author.name}}</div>
+            {% endif %}
+            <div class="page-date"><i class="fa fa-clock-o"></i><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
+          </div>
         </div>
       </div>
-      
+
     </div>
-    
+
     <div class="wrapper">
       <div class="page-content">
-        
+
         {{page.content | markdownify}}
         <div class="page-footer">
           <div class="page-tag">
@@ -27,8 +33,11 @@ layout: default
           </div><!-- End Tags -->
           <div class="page-share">
             <span>Partilhar:</span>
-            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}"
+              title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"
+                aria-hidden="true"></i></a>
+            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"
+              rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           </div><!-- End Share -->
         </div>
         {% include author-box.html %}
