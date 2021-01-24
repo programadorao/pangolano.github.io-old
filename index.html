@@ -8,14 +8,18 @@ layout: home-page
 
 
       <div class="post-card-body">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link">
+          <h3 class="post-card-title">{{post.title}}</h3>
+        </a>
         <div class="post-card-info">
           {% if post.author %}
-            {% assign author = site.authors[post.author] %}
-            <span class="post-card-author-name">{{ author.name }}</span>
-            <div class="post-card-datatime">
+          {% assign author = site.authors[post.author] %}
+          <span class="post-card-author-name"><i class="fa fa-user-circle-o"></i>{{ author.name }}</span>
+          {% endif %}
+          <div class="post-card-datatime">
             <meta itemprop="datePublished" content="{{post.date}}">
             <time datetime="{{ post.date | date_to_xmlschema }}">
+              <i class="fa fa-clock-o"></i>
               <span class="day">
                 {{ post.date | date: "%d" }}
               </span>
@@ -23,7 +27,6 @@ layout: home-page
                 {{ post.date | date: "%B %Y" }}
               </span>
             </time>
-          {% endif %} 
           </div>
         </div>
         <p class="post-card-description">
@@ -31,7 +34,7 @@ layout: home-page
           <a href="{{ post.url | prepend: site.baseurl }}" class="link">ler mais</a>
         </p>
         {% for tag in post.tags %}
-          <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
+        <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
         {% endfor %}
       </div>
 
@@ -39,4 +42,3 @@ layout: home-page
   </li>
   {% endfor %}
 </ol>
-
