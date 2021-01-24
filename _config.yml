@@ -75,7 +75,113 @@ paginate_path: /page:num/
 # Build settings
 markdown: kramdown
 
+plugins:title: Programador Angolano
+email: haguacomh@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+   Programador Angolano é um website para iniciantes 
+   que desejam aprender programação onde abordaremos de tudo um pouco!
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://pangolano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author setting
+
+authors:
+   joa:
+      name: Joa Roque
+      profile: joa.jpg
+      description: > #ooo
+         Olá tudo bem? :smiley:<br>
+         Sou o tempo todo um aventureiro e amo programar. 
+         Um eterno aprendiz e curioso @catumua_
+      display_name: Joa
+      email: haguacomh@gmail.com
+      web: https://joaroque.github.io
+      facebook: "100025057463273" # Add your Facebook handle
+      twitter: "catumua_"
+      github: joaroque
+      instagram: catumua_ # Add your Instagram handle
+      linkedin: 
+   ivaldir:
+      name: Ivaldir Batalha
+      profile: ivaldir.jpg
+      description: > #author description
+         Sou um jovem curioso, gosto de ciências, e engenharia.
+         Procuro deixar meu contributo ao mundo desenvolvendo projectos e coisas inovadoras
+      display_name: Ivaldir
+      email: ivalbat1@gmail.com
+      web: 
+      facebook: ivaldir.lopes # Add your Facebook handle
+      twitter: Ivaldir17
+      github: ­ivaldir301 # Add your Github handle
+      instagram: batalha.ivaldir # Add your Instagram handle
+      linkedin: 
+   edgar:
+      name: Edgar Singui
+      profile: edgar.jpg
+      description: > #author description
+         Olá sou o Edgar,
+         programador e alguém apaixonado pela tecnologia e seus prazeres.
+         Trabalho com programação web e mobile.<br>
+         Acredito estar capacitado para dar suporte a menos experientes.
+         Tenho bastante experiência no que toca a desenvolvimento de sites e aplicativos. <br>
+         Desenvolvo Sites usando PHP & Vue Js, é uma maravilha, Apps usando Flutter. 
+         <br>Quer tomar um café :coffee: comigo?
+      display_name: Edgar
+      email: edgarsingui@gmail.com
+      web: 
+      facebook: edgarsingui01 # Add your Facebook handle
+      twitter: Mr_Vacuo
+      github: edgarsingui # Add your Github handle
+      instagram: edgarsingui_ # Add your Instagram handle
+      linkedin: edgar-singui
+   
+   john:
+      name: John Correia
+      profile: john.jpg
+      description: > #author description
+        Olá sou o john  :blush: 
+         <br>Curto e estudo sobre o mundo open source e 
+        faço conteúdo pra net relacionado ao mesmo.
+      display_name: John
+      email: johncorreia02@gmail.com
+      web: https://­apenasumuser.blogspot­.com/
+      telegram: ­Johncorreia
+      facebook: ­john.correia.12935 # Add your Facebook handle
+      twitter: 
+      github:  # Add your Github handle
+      instagram: johncorreia02/ # Add your Instagram handle
+      linkedin: 
+      youtube:  https://­www.youtube.com/­channel/­UCPaEnASR7h7I866y1CWE­fzQ
+
+
+
+# Newsletter
+mailchimp: "/github.us7.list-manage.com/subscribe/post?u=373996a1b36d0f04b99916930&amp;id=5fa6b5ca8b" # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: /programador-angolano # Add your discus identifier
+
+# Tracker
+analytics: G-DKJPHP3ZTL # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
 plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
