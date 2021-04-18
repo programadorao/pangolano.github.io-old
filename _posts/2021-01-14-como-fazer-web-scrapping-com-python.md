@@ -29,7 +29,7 @@ Se tudo estiver ok vamos prosseguir...
 ## Instalar o Requests
 Para trabalhar com requisições nós precisaremos do requests que é um módulo do Python trata disso de forma legível. 
 
-> Em sistemas Linux é normal Python3 vir instalados e com alguns pacotes essencias já. Verifica se já tem o requests instalado antes de prosseguir
+> Em sistemas Linux é normal Python3 vir instalado e com alguns pacotes essencias já. Verifica se já tem o requests instalado antes de prosseguir
 
 Vamos instala-lo com o pip:
 
@@ -127,7 +127,7 @@ def mensagem():
 {% highlight python %}
 import pacote
 
-pacote.Mensagem("Olá Mundo").imprimir()
+pacote.Mensagem("Olá Mundo").imprime()
 
 mensagem()
 {% endhighlight %} - importamos o arquivo todo e chamamos a classe `Mensagem`, passamos o argumento e imprimimos com o método `imprime()` e também executamos a função `mensagem()`.
@@ -135,7 +135,7 @@ mensagem()
 {% highlight python %}
 from pacote import *
 
-pacote.Mensagem("Olá Mundo").imprimir()
+pacote.Mensagem("Olá Mundo").imprime()
 
 mensagem()
 {% endhighlight %} - importamos o arquivo todo e chamamos a classe `Mensagem`, passamos o argumento e imprimimos com o método `imprime()` e também executamos a função `mensagem()`.
@@ -143,14 +143,14 @@ mensagem()
 {% highlight python %}
 from pacote import Mensagem
 
-Mensagem("Olá Mundo").imprimir()
+Mensagem("Olá Mundo").imprime()
 
 {% endhighlight %} - importamos  a classe `Mensagem`, passamos o argumento e imprimimos com o método `imprime()`.
 
 {% highlight python %}
 from pacote import Mensagem as msg
 
-msg("Olá Mundo").imprimir()
+msg("Olá Mundo").imprime()
 
 mensagem()
 {% endhighlight %} - importamos a classe `Mensagem` em uma variável chamada `msg`, passamos o argumento e imprimimos com o método `imprime()` .
