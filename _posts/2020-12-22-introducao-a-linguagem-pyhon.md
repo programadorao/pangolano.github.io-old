@@ -12,7 +12,7 @@ Python é usada em diversas áreas como: Web, desktp, mobile, data science, inte
 
 Criada em 1991 pelo holandês Guido Van Rossun. Suporta banco de dados relacionais, é Free (GPL) e não depende de fornecedores exclusivos. Outro ponto, python é uma linguagem de script e interpretada
 
-> Caso ainda não saiba, actualmente, Python tem duas verss mais utilizadas, Python 2 e Python 3. Python 3 é a versão mais actual. Dito isto, Python 3 é o futuro, então, não existe motivos para que você comece a programar com Python 2.
+> Caso ainda não saiba, actualmente, Python tem duas versões mais utilizadas, Python 2 e Python 3. Python 3 é a versão mais actual. Dito isto, Python 3 é o futuro, então, não existe motivos para que você comece a programar com Python 2.
 
 ![Compilador - Interpretador]({{site.baseurl}}/assets/img/post/compilador-interpretador.png)
 
@@ -28,7 +28,7 @@ print("Olá mundo!")
 {% endhighlight %}
 
 Bora explicar esse trecho
-`print()` - a função print serve para imprimir algo na tela. Esta mesma função recebe como parametro uma strin que nós usamos `"Olá mundo!"`
+`print()` - a função print serve para imprimir algo na tela. Esta mesma função recebe como parâmetro uma strin que nós usamos `"Olá mundo!"`
 
 ## VARIÁVEIS
 Até aqui tudo calmo? rsrsrsr
