@@ -9,7 +9,7 @@ author: joa
 
 Olá sou Joaquim Roque também conhecido como Joa Roque.
 Estou trabalhando para repor o blog **Programador Angolano** que ficou parado por um tempo por motivos pessoais. Hoje decido voltar porque para álem de ensinar é uma motivação para aprender mais e mais. 
-Esse mesmo projecto surgiu através de um amigo que me fez o convite para trabalhar com ele. Só que as coisas não foram como planejadas e então ele decidiu largar o projecto... Mas como sempre me ele surpeendeu, começou em um outro projecto para ensinar programação com Python. 
+Esse mesmo projecto surgiu através de um amigo que me fez o convite para trabalhar com ele. Só que as coisas não foram como planejadas e então ele decidiu largar o projecto... Mas como sempre ele me surpeendeu, começou em um outro projecto para ensinar programação com Python. 
 
 Convido-lhe a acompanhar o projecto [Usando Python][usando-python] na qual é mantido por ele mesmo.
 
@@ -24,7 +24,7 @@ diz_ola("JOaquim")
 
 ### Objectivo 
 A ideia é fazer um blog para ensino de programação para todos níveis de aprendizado. Devido a situação da internet do nosso país os mesmos post serão postados na nossa página do [Facebook][facebook-page], também passarei a postar no [Medium][medium] só para maior visiblidade do nosso trabalho.
-O projecto é livre para quem quiser participar, só entrar em contacto comigo no [Facebook][faceboo-me]
+O projecto é livre para quem quiser participar, só entrar em contacto comigo no [Facebook][facebook-me]
 
 ### Como contribuir
 Você pode contribuir nos ajudando com uma hospedagem ou domínio. Pode também ajudar com sugestões de conteúdos e/ou fontes.
