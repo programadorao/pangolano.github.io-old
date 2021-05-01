@@ -24,21 +24,8 @@ authors:
       twitter: "catumua_"
       github: joaroque
       instagram: catumua_ # Add your Instagram handle
-      linkedin: 
-   ivaldir:
-      name: Ivaldir Batalha
-      profile: ivaldir.jpg
-      description: > #author description
-         Sou um jovem curioso, gosto de ciências, e engenharia.
-         Procuro deixar meu contributo ao mundo desenvolvendo projectos e coisas inovadoras
-      display_name: Ivaldir
-      email: ivalbat1@gmail.com
-      web: 
-      facebook: ivaldir.lopes # Add your Facebook handle
-      twitter: Ivaldir17
-      github: ­ivaldir301 # Add your Github handle
-      instagram: batalha.ivaldir # Add your Instagram handle
-      linkedin: 
+      linkedin: joaquim-catumua-roque
+ 
    edgar:
       name: Edgar Singui
       profile: edgar.jpg
@@ -59,23 +46,7 @@ authors:
       instagram: edgarsingui_ # Add your Instagram handle
       linkedin: edgar-singui
    
-   john:
-      name: John Correia
-      profile: john.jpg
-      description: > #author description
-        Olá sou o john  :blush: 
-         <br>Curto e estudo sobre o mundo open source e 
-        faço conteúdo pra net relacionado ao mesmo.
-      display_name: John
-      email: johncorreia02@gmail.com
-      web: https://apenasumuser.blogspot.com/
-      telegram: Johncorreia
-      facebook: john.correia.12935 # Add your Facebook handle
-      twitter: 
-      github:  # Add your Github handle
-      instagram: johncorreia02/ # Add your Instagram handle
-      linkedin: 
-      youtube:  https://www.youtube.com/channel/UCPaEnASR7h7I866y1CWEfzQ
+
 
 
 
