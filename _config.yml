@@ -24,8 +24,8 @@ authors:
       twitter: "catumua_"
       github: joaroque
       instagram: catumua_ # Add your Instagram handle
-      linkedin: http://linkedin.com/in/joaquim-catumua-roque
-   
+      linkedin: joaquim-catumua-roque
+
    edgar:
       name: Edgar Singui
       profile: edgar.jpg
@@ -46,8 +46,6 @@ authors:
       instagram: edgarsingui_ # Add your Instagram handle
       linkedin: edgar-singui
    
-  
-  
 # Newsletter
 mailchimp: "/github.us7.list-manage.com/subscribe/post?u=373996a1b36d0f04b99916930&amp;id=5fa6b5ca8b" # Add your MailChimp form identifier.
 
