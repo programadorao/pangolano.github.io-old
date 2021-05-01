@@ -11,7 +11,7 @@ permalink: /about/
      {% assign author = a[1] %}
     <section class="about-header" style="margin-top: 30px">
       <div class="author-image-container">
-        <img src="{{site.baseurl}}/assets/img/{% if author.profile %}{{author.profile}}{% endif %}" alt="{{site.author}}">
+        <img src="{{site.baseurl}}/assets/img/profile/{% if author.profile %}{{author.profile}}{% endif %}" alt="{{site.author}}">
       </div>
       <h1 style="text-align: center;">{{ author.name  }}</h1>
       <p class="subtitle">{{author.description}}</p>

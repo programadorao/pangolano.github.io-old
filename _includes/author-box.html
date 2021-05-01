@@ -3,7 +3,7 @@
   
   {% assign author = site.authors[page.author] %}
 
-  <img src="{{site.baseurl}}/assets/img/{% if author.profile %}{{author.profile}}{% endif %}" alt="{{site.author}}" class="author-img">
+  <img src="{{site.baseurl}}/assets/img/profile/{% if author.profile %}{{author.profile}}{% endif %}" alt="{{site.author}}" class="author-img">
   <div class="author-desc">
     <h1>{{author.name}}</h1>
     <p>{{author.description}}</p> 
@@ -24,19 +24,29 @@
         <li class="twitter"><a href="https://twitter.com/programadorangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if author.facebook %}
-        <li class="twitter"><a href="{{author.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li class="facebook"><a href="{{author.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
       {% else %}
-        <li class="twitter"><a href="https://www.facebook.com/programadorangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/programadorangolano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if author.github %}
-        <li class="twitter"><a href="https://github.com/{{author.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li class="github"><a href="https://github.com/{{author.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
       {% else %}
-        <li class="twitter"><a href="https://github.com/pangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="github"><a href="https://github.com/pangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       {% endif %}
       {% if author.instagram %}
-        <li class="twitter"><a href="https://instagram.com/{{author.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li class="instagram"><a href="https://instagram.com/{{author.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
       {% else %}
-        <li class="twitter"><a href="https://instagram.com/programadorangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="instagram"><a href="https://instagram.com/programadorangolano" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if author.telegram %}
+        <li class="telegram"><a href="https://t.me/{{author.telegram}}" target="_blank"><i class="fa fa-telegram"></i></a></li>
+      {% else %}
+        <li class="telegram"><a href="https://t.me/programadorangolano" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if author.youtube %}
+        <li class="youtube"><a href="{{author.youtube}}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+      {% else %}
+        <li class="youtube"><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
       {% endif %}
     </ul>
   </div>
@@ -45,18 +55,18 @@
   <div class="author-desc">
     <h1>Programador Angolano</h1>
     <p>
-      Programador Angolano é um website para iniciantes 
-      que desejam aprender programação onde abordaremos de tudo um pouco!
+      Programador Angolano é uma plataforma de ensino sobre programação e não só. Abordamos tudo sobre TI, mundo open-source, Linux, Windows
+      Dicas de aprendizado, Highlight e muito mais :)
     </p>
 
     <ul>
         <li class="email"><a href="mailto:programadorangolano1@gmail.com.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         <li class="website"><a href="https://pangolano.github.io" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
-        <li class="twitter"><a href="https://twitter.com/@programadorangolano" target="_blank"><i class="fa fa-twitter"></i></a>
+        <li class="twitter"><a href="https://twitter.com/programador_ao" target="_blank"><i class="fa fa-twitter"></i></a>
         </li>
-        <li class="twitter"><a href="https://www.facebook.com/programadorangolano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li class="twitter"><a href="https://github.com/pangolano" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li class="twitter"><a href="https://instagram.com/programadorangolano" target="_blank"><i class="fa fa-instagram"></i></a>
+        <li class="facebook"><a href="https://www.facebook.com/programadorangolano" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class="github"><a href="https://github.com/pangolano" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li class="instagram"><a href="https://instagram.com/programadorangolano" target="_blank"><i class="fa fa-instagram"></i></a>
         </li>
      
     </ul>
