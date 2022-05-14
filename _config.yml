@@ -26,6 +26,19 @@ authors:
       instagram: catumua_ # Add your Instagram handle
       linkedin: joaquim-catumua-roque
 
+   melissa:
+      name: Melissa Costa
+      profile: melissa.jpg
+      description: > #ooo
+         Olá! Sou a Melissa :smiley:<br>
+         Atualmente estudando na Cisco NetAcademy.
+         Adoro programar, kpop e assistir animes.
+      display_name: Melissa
+      email: m3licosta@gmail.com
+      web: https://mel-costa.github.io
+      github: mel-costa
+      linkedin: melissa-costa
+
    edgar:
       name: Edgar Singui
       profile: edgar.jpg
@@ -53,7 +66,7 @@ mailchimp: "/github.us7.list-manage.com/subscribe/post?u=373996a1b36d0f04b999169
 discus_identifier: /programador-angolano # Add your discus identifier
 
 # Tracker
-analytics: G-DKJPHP3ZTL # Google Analytics
+analytics: G-W4KENYCGGM # Google Analytics
 
 # Paginate
 paginate: 6
