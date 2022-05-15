@@ -69,7 +69,7 @@ discus_identifier: /programador-angolano # Add your discus identifier
 analytics: G-W4KENYCGGM # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 4
 paginate_path: /page:num/
 
 # Build settings
