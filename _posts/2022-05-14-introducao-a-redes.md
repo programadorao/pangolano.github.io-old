@@ -1,12 +1,9 @@
 ---
-title: Introdução a redes de computadores
 layout: post
+title: Introdução a redes de computadores
 date: '2022-05-14 18:50:12'
-tags:
-- network
-- redes
-- internet
-
+description: "Uma introdução a redes de computadores"
+tags: [redes, network, protocolos]
 author: melissa
 ---
 
