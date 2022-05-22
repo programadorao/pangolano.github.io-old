@@ -2,19 +2,16 @@
 layout: post
 title: Introdução a redes de computadores
 date: '2022-05-14 18:50:12'
-tags:
-- network
-- redes
-- internet
-
+description: "Uma introdução a redes de computadores"
+tags: [redes, network, protocolos]
 author: melissa
 ---
-``` 
+
 Olá!
 Sou a Melissa Costa.
 Partilharei alguns conhecimentos básicos sobre redes de computadores.
 Embarque comigo nesta jornada!
-```
+
 
 # Capítulo#1
 
@@ -118,4 +115,3 @@ Neste capítulo foi introduzido o conceito de redes de computadores, seguido da 
 <li>Dispositvos intermediários</li>
 <li>Mídias de rede</li>
 Por fim, explicou-se a função de servidores e clientes, bem como os benefícios e inconvenientes de uma rede ponto a ponto.
-
