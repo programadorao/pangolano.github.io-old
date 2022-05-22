@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prtocolos de rede
+title: Protocolos de rede
 date: '2022-05-22 18:45:10'
 tags:
 - redes
@@ -19,7 +19,7 @@ Continue a seguir o caminho dos conhecimentos básicos sobre redes de computador
 
 ## Protocolos
 
-O principar objectivo de qualquer rede é fornecer um método para comunicar e partilhar informações. Para que a comunicação seja possível, são necessários 3 elementos:
+O principal objectivo de qualquer rede é fornecer um método para comunicar e partilhar informações. Para que a comunicação seja possível, são necessários 3 elementos:
 
 1. Emissor: a origem que emite a mensagem;
 
@@ -50,69 +50,40 @@ Para descrever as funções que devem ocorrer em comunicações de rede bem.suce
 A comunicação bem-sucedida entre hosts requer uma interação entre vários protocolos dispostos numa hierarquia em camadas, desde os protocolos de alto nível, até aos níveis inferiores.
 
 Os modelos em camada ajudam a visualizar o funcionamento conjunto dos diversos protocolos, como a interação entre as camadas acima e abaixo, para possibilitar a comunicação de rede.
-### <li>TCP/IP
+### <li>TCP/IP </li>
 O modelo TCP/IP é um modelo de protocolo de internet criado no início dos anos 70. A sua estrutura  inclui 4 camadas:
 
-<table>
-<tr>
-    <th>4. Aplicação</th>
-</tr>
+4. Aplicação
 
-<tr>
-    <th>3. Transporte</th>
-</tr>
+3. Transporte
 
-<tr>
-    <th>2. Internet</th>
-</tr>
+2. Internet
 
-<tr>
-    <th>1. Acesso à rede</th>
-</tr>
+1. Acesso à rede
 
-</table>
-
-### <li> OSI
+### <li> OSI </li>
 
 O modelo OSI do projecto Open Systems Interconnection da ISO. É um modelo de referência usado para a elaboração de rede de daods, especificações de operação e resolução de problema, formado por 7 camadas:
 
-<table>
+7. Aplicação
 
-<tr>
-    <th>7. Aplicação</th>
-</tr>
+6. Apresentação
 
-<tr>
-    <th>6. Apresentação</th>
-</tr>
+5. Sessão
 
-<tr>
-    <th>5. Sessão</th>
-</tr>
+4. Transporte
 
-<tr>
-    <th>4. Transporte</th>
-</tr>
+3. Rede
 
-<tr>
-    <th>3. Rede</th>
-</tr>
+2. Enlace de dado
 
-<tr>
-    <th>2. Enlace de dados</th>
-</tr>
-
-<tr>
-    <th>1. Física</th>
-</tr>
-
-</table>
+1. Física
 
 >A diferença entre o modelo OSI e o  TCP/IP está no modo como se relacionam as camadas superiores e inferiores :
 
 <table>
 <tr>
-    <th >OSI</th>
+    <th>OSI</th>
     <th>TCP/IP</th>
     <th>Função</th>
 </tr>
