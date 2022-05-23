@@ -65,20 +65,6 @@ O modelo TCP/IP é um modelo de protocolo de internet criado no início dos anos
 
 O modelo OSI do projecto Open Systems Interconnection da ISO. É um modelo de referência usado para a elaboração de rede de daods, especificações de operação e resolução de problema, formado por 7 camadas:
 
-7. Aplicação
-
-6. Apresentação
-
-5. Sessão
-
-4. Transporte
-
-3. Rede
-
-2. Enlace de dado
-
-1. Física
-
 >A diferença entre o modelo OSI e o  TCP/IP está no modo como se relacionam as camadas superiores e inferiores :
 
 | OSI | TCP/IP | Função |
