@@ -9,11 +9,11 @@ tags:
 
 author: melissa
 ---
-``` 
+
 Olá!
 Sou a Melissa Costa.
 Continue a seguir o caminho dos conhecimentos básicos sobre redes de computadores!
-```
+
 
 # Capítulo#2
 
@@ -50,7 +50,7 @@ Para descrever as funções que devem ocorrer em comunicações de rede bem.suce
 A comunicação bem-sucedida entre hosts requer uma interação entre vários protocolos dispostos numa hierarquia em camadas, desde os protocolos de alto nível, até aos níveis inferiores.
 
 Os modelos em camada ajudam a visualizar o funcionamento conjunto dos diversos protocolos, como a interação entre as camadas acima e abaixo, para possibilitar a comunicação de rede.
-### <li>TCP/IP </li>
+### TCP/IP
 O modelo TCP/IP é um modelo de protocolo de internet criado no início dos anos 70. A sua estrutura  inclui 4 camadas:
 
 4. Aplicação
@@ -61,7 +61,7 @@ O modelo TCP/IP é um modelo de protocolo de internet criado no início dos anos
 
 1. Acesso à rede
 
-### <li> OSI </li>
+### OSI
 
 O modelo OSI do projecto Open Systems Interconnection da ISO. É um modelo de referência usado para a elaboração de rede de daods, especificações de operação e resolução de problema, formado por 7 camadas:
 
@@ -81,59 +81,15 @@ O modelo OSI do projecto Open Systems Interconnection da ISO. É um modelo de re
 
 >A diferença entre o modelo OSI e o  TCP/IP está no modo como se relacionam as camadas superiores e inferiores :
 
-<table>
-<tr>
-    <th>OSI</th>
-    <th>TCP/IP</th>
-    <th>Função</th>
-</tr>
-
-<tr>
-    <td>
-    7. Aplicação
-<br>
-    6. Apresentação
-<br>
-    5. Sessão   
-    </td>
-    <td>Aplicação</td>
-    <td>
-    Conexão da rede
-<br>
-    Representação dos dados
-<br>
-    Gerenciamento do dados
-    </td>
-    
-</tr>
-
-<tr>
-    <td>4. Transporte</td>
-    <td>3. Transporte</td>
-    <td>Comunicação entre dispositivos</td>
-</tr>
-
-<tr>
-    <td>3. Rede</td>
-    <td>2. Internet</td>
-    <td>Caminho da rede</td>
-</tr>
-
-<tr>
-    <td>
-    2.  Enlace de dados
- <br>   
-    1. Física
-    </td>
-    <td>1. acesso à rede</td>
-    <td>
-    Troca de dados entre dispositivos
-<br>
-    Hardware da rede
-</td>
-</tr>
-
-</table>
+| OSI | TCP/IP | Função |
+|--- |--- |--- |
+| 7 - Aplicação | | Funções especialistas (transferência de arquivos, envio de e-mail, terminal virtual).|
+| 6 - Apresentação | | Formatação dos dados, conversão de códigos e caracteres (compressão e criptografia).|
+| 5 - Sessão	| | Negociação e conexão com outros nós, analogia.|
+| 4 - Transporte |	| Oferece métodos para a entrega de dados ponto-a-ponto.|
+| 3 - Rede |	| Roteamento de pacotes em uma ou várias redes.|
+| 2 - Enlace | 	| Detecção de erros.|
+| 1 - Física |	| Transmissão e recepção dos bits brutos através do meio físico de transmissão.|
 
 ## Padrões de internet
 
